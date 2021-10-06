@@ -1,5 +1,5 @@
 function CalcularMulta(){
-    let peso = document.querySelector("peso").value;
+    let peso = document.querySelector("#peso").value;
     let limite = 50;
     let valorMultaUnidade = 4;
     let excesso = peso - limite;
